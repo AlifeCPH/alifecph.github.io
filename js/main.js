@@ -25,7 +25,8 @@
 		});
 
 	// Dropdowns.
-	    window.addEventListener("DOMContentLoaded", function() {
+	    //window.addEventListener("DOMContentLoaded", function() {
+		window.addEventListener("load", function() {
 		$('#nav > ul').dropotron({
 			mode: 'fade',
 			noOpenerFade: true,
