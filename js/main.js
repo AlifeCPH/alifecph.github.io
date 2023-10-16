@@ -25,12 +25,14 @@
 		});
 
 	// Dropdowns.
+	    window.addEventListener("DOMContentLoaded", function() {
 		$('#nav > ul').dropotron({
 			mode: 'fade',
 			noOpenerFade: true,
 			alignment: 'center',
 			detach: false
 		});
+		
 
 	// Nav.
 
@@ -62,5 +64,5 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
-
+		});
 })(jQuery);
