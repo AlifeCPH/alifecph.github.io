@@ -27,9 +27,8 @@ class Footer extends HTMLElement {
 									<section>
 										<h3 class="icon solid fa-comment">Social</h3>
 										<p>
-											<a href="https://twitter.com/ALife">Twitter</a><br />
-										<a href="https://mathstodon.xyz/@ALife">Mastodon</a><br />
-										<a href="https://www.linkedin.com/company/ALife">Linkedin</a>
+										<a href="https://twitter.com/ALifeConf">Twitter</a><br />
+										<a href="https://www.facebook.com/ALIFEconf/">Facebook</a>
 										</p>
 									</section>
 								</div>
