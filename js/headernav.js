@@ -40,7 +40,7 @@ class HeaderNav extends HTMLElement {
 						<li>
 							<a href="#">Organization</a>
 							<ul>
-								<li><a href="organization.html">Organizers</a></li>
+								<li><a href="organization.html">Committee</a></li>
 								<!-- <li><a href="sponsors.html">Sponsors</a></li> -->
 								
 							</ul>
