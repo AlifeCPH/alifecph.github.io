@@ -23,16 +23,25 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+		
+		$window.scroll(function () {
+            if ($(this).scrollTop() > 40) {
+                $('#iMyBtn').fadeIn("slow");
+            } else {
+                $('#iMyBtn').fadeOut("slow");
+      
+            }
+        });
 
 	// Dropdowns.
 	    //window.addEventListener("DOMContentLoaded", function() {
 		window.addEventListener("load", function() {
-		$('#nav > ul').dropotron({
-			mode: 'fade',
-			noOpenerFade: true,
-			alignment: 'center',
-			detach: false
-		});
+			$('#nav > ul').dropotron({
+				mode: 'fade',
+				noOpenerFade: true,
+				alignment: 'center',
+				detach: false
+			});
 		
 
 	// Nav.
@@ -67,3 +76,10 @@
 				});
 		});
 })(jQuery);
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+	document.body.scrollIntoView({
+		behavior: "smooth",
+	});
+}
