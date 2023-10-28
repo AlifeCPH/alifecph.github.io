@@ -45,6 +45,21 @@ class HeaderNav extends HTMLElement {
 								
 							</ul>
 						</li>
+						<li>
+							<a href="#">Competitions</a>
+							<ul>
+								<li><a href="https://sites.google.com/view/vcc-2024" target="_blank" rel="noreferrer noopener">Virtual Creatures Competition</a></li>
+								
+							</ul>
+						</li>
+						<li>
+							<a href="#">Info</a>
+							<ul>
+								<li><a href="venue.html">Venue</a></li>
+								<li><a href="https://www.visitcopenhagen.com/" target="_blank" rel="noreferrer noopener">Copenhagen</a></li>
+								<!-- <li><a href="copenhagen.html">Copenhagen</a></li> -->
+							</ul>
+						</li>
 
 					</ul>
 				</nav>

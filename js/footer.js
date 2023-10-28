@@ -27,8 +27,8 @@ class Footer extends HTMLElement {
 									<section>
 										<h3 class="icon solid fa-comment">Social</h3>
 										<p>
-										<a href="https://twitter.com/ALifeConf">Twitter</a><br />
-										<a href="https://www.facebook.com/ALIFEconf/">Facebook</a>
+										<a href="https://twitter.com/ALifeConf" target="_blank" rel="noreferrer noopener">Twitter</a><br />
+										<a href="https://www.facebook.com/ALIFEconf/" target="_blank" rel="noreferrer noopener">Facebook</a>
 										</p>
 									</section>
 								</div>
@@ -37,7 +37,7 @@ class Footer extends HTMLElement {
 									<section>
 										<h3 class="icon solid fa-envelope">Email</h3>
 										<p>
-										alife2024@itu.dk
+										artificiallife2024@gmail.com
 										</p>
 									</section>
 								</div>

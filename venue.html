@@ -6,148 +6,91 @@
 -->
 <html>
 	<head>
-		<title>ALife'24 Copenhagen</title>
+		<title>ALIFE 2024 Copenhagen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="icon" type="image/x-icon" href="images/Icon_ALIFE2024.png">
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
 
-			<!-- Header -->
+			<!-- Header -->			
 			<section id="header" class="wrapper" style="background: url('images/chairs2small.jpg')">
 
 				<!-- Logo -->
 				<div id="logo">
+					<img a href="index.html" , src="images/Logo_ALIFE2024_grayinv.png" alt="ALIFE 2024 logo" style="height: 9em;">
 					<h1>Venue</h1>
 				</div>
 
 				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li><a href="#">Submit</a>
-							<ul>
-								<li><a href="submit_abstract.html">Call for Abstracts</a></li>
-								<li><a href="submit_tutorial.html">Call for Tutorials</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Attend</a>
-							<ul>
-								<li><a href="register.html">Register</a></li>
-								<!-- <li><a href="venue.html">Venue</a></li> -->
-								<!-- <li><a href="accommodation.html">Accommodation</a></li> -->
-							</ul>
-						</li>
-						<li>
-							<a href="#">Program</a>
-							<ul>
-								<li><a href="program.html">Program</a></li>
-								
-								<li><a href="keynotes.html">Keynotes</a></li>
-								<li><a href="tutorials.html">Tutorials</a></li>
-								<li><a href="match_making.html">Match making session</a></li>
-								<li><a href="hackathon.html">Hackathon</a></li>
-								
-								<li><a href="social_event.html">Social event</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Organization</a>
-							<ul>
-								<li><a href="organization.html">Organizers</a></li>
-								<li><a href="sponsors.html">Sponsors</a></li>
-								
-							</ul>
-						</li>
-
-					</ul>
-				</nav>
+				<header-nav-component></header-nav-component>
 			</section>
 
-			<!-- Venue -->
+
 			<section id="main" class="wrapper style3">
-				<div class="title">The IT University</div>
-				<div class="container">
+				<div class="title">The IT University of Copenhagen</div>
+					<div class="container">
+						<header class="style1">
+							<h2>Venue</h2>
+						</header>
+						<div id="content">
+							<article class="box post">
+								<p>The IT University of Copenhagen (ITU) was established in 1999 and is Denmark’s leading university focusing on IT research and education. At ITU, it is delivered state-of-the-art teaching and research within computer science, business IT and digital design.</p>
+							</article>
+						</div>
+						<hr>
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<img src=images/ITU_1.jpg width="300" alt="" />
+							</div>
+							<div class="col-4 col-12-medium">
+								<img src=images/ITU_2.jpg width="300" alt="" />
+							</div>
+							<div class="col-4 col-12-medium">
+								<img src=images/ITU_3.jpg width="300" alt="" />
+							</div>
+						</div>
+						
+						<hr>
+						
+						<header class="style1">
+							<h2>Location</h2>
+						</header>
 
-					<!-- Image -->
-					<a href="#" class="image featured">
-						<img src="images/venue_01.png" alt="" />
-					</a>
-
-					<hr>
-
-					<div id="content">
-						<article class="box post">
-							<p>The conference will be held in the IT University.. DESCRIBE VENUE HERE</p>
-
-						</article>
+						<div id="content">
+							<article class="box post">
+								<p>The address is:</p>
+								<p>Rued Langgaards Vej 7
+								<br />
+								2300 København S
+								<br />
+								Danmark</p>
+								
+								<p>Link: <a href="https://en.itu.dk/About-ITU/Building/How-to-get-to-the-IT-University" target="_blank" rel="noreferrer noopener">How to get to the IT University</a></p>
+							</article>
+						</div>
+						
 					</div>
-
-					<hr>
-
-					<!-- <center>
-						<div class="embed-container">
-							GOOGLE MAPS EMBED LINK HERE
-						</div>
-					</center> -->
-
-
 				</div>
 			</section>
-
-
+			
 			<!-- Footer -->
-			<section id="footer" class="wrapper">
-				<div class="title">Contact</div>
-				<div class="container">
-					<section class="feature-list small">
-						<div class="row">
-							<div class="col-4 col-12-small">
-								<section>
-									<h3 class="icon solid fa-home">Address</h3>
-									<p>
-										IT University<br />
-										Rued Langgaards vej 7,  2300 Copenhagen<br />
-										Denmark
-									</p>
-								</section>
-							</div>
-							
-							<div class="col-4 col-12-small">
-								<section>
-									<h3 class="icon solid fa-comment">Social</h3>
-									<p>
-										<a href="https://twitter.com/ALife">Twitter</a><br />
-										<a href="https://mathstodon.xyz/@ALife">Mastodon</a><br />
-										<a href="https://www.linkedin.com/company/ALife">Linkedin</a>
-									</p>
-								</section>
-							</div>
-
-							<div class="col-4 col-12-small">
-								<section>
-									<h3 class="icon solid fa-envelope">Email</h3>
-									<p>
-										pending
-									</p>
-								</section>
-							</div>
-						</div>
-					</section>
-				</div>
-			</section>
-
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><i id="iMyBtn" class="fa fa-chevron-up"></i></button>
+			<footer-component></footer-component>
+			
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/browser.min.js"></script>
+<script src="js/breakpoints.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+<script src="js/headernav.js"></script>
+<script src="js/footer.js"></script>
 
 	</body>
 </html>
