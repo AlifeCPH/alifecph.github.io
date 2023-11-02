@@ -8,13 +8,11 @@ class HeaderNav extends HTMLElement {
       <nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
-						<!-- <li><a href="#">Submit</a>
+						<li><a href="#">Submit</a>
 							<ul>
-								<li><a href="submit_paper.html">Call for Papers</a></li>
-								<li><a href="submit_abstract.html">Call for Abstracts</a></li>
-								<li><a href="submit_tutorial.html">Call for Tutorials</a></li>
+								<li><a href="call_workshop.html">Call for Workshops & Tutorials</a></li>
 							</ul>
-						</li> -->
+						</li>
 						<!-- <li> -->
 							<!-- <a href="#">Attend</a> -->
 							<!-- <ul> -->
