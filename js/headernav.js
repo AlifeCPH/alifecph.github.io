@@ -11,6 +11,7 @@ class HeaderNav extends HTMLElement {
 						<li><a href="#">Submit</a>
 							<ul>
 								<li><a href="call_workshop.html">Call for Workshops & Tutorials</a></li>
+								<li><a href="call_special_session.html">Call for Special Sessions</a></li>
 							</ul>
 						</li>
 						<!-- <li> -->
