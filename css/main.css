@@ -2842,7 +2842,7 @@ input, select, textarea {
 				letter-spacing: 0;
 			}
 
-			h2, h3, h4, h5, h6 {
+			h2, h3, h4, h5, h6, details {
 				font-size: 1.2em;
 				letter-spacing: 0.05em;
 				margin: 0 0 1em 0;
