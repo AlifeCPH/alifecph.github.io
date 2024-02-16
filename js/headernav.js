@@ -41,6 +41,8 @@ class HeaderNav extends HTMLElement {
 							<a href="#">Program</a>
 							<ul>
 								<li><a href="special_sessions.html">Special sessions</a></li>
+								<li><a href="workshops.html">Workshops</a></li>
+								<li><a href="tutorials.html">Tutorials</a></li>
 							</ul>
 						</li>
 						<li>
