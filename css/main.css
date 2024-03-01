@@ -3104,3 +3104,25 @@ input, select, textarea {
 #iMyBtn {
   display: none;
 }
+
+.ulcolumns {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+
+@media screen and (max-width: 980px) {
+	.ulcolumns {
+	  columns: 3;
+	  -webkit-columns: 3;
+	  -moz-columns: 3;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.ulcolumns {
+	  columns: 2;
+	  -webkit-columns: 2;
+	  -moz-columns: 2;
+	}
+}
