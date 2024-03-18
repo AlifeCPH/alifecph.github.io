@@ -8,6 +8,7 @@ class HeaderNav extends HTMLElement {
       <nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="registration.html">Register</a></li>
 						<li><a href="#">Submit</a>
 							<ul>
 								<li><a href="call_paper.html">Call for Papers</a></li>
