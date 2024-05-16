@@ -8,7 +8,14 @@ class HeaderNav extends HTMLElement {
       <nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
-						<li><a href="registration.html">Register</a></li>
+						<!-- <li><a href="registration.html">Register</a></li> -->
+						<li>
+							<a href="#">Register</a>
+							<ul>
+								<li><a href="registration.html">Registration</a></li>
+								<li><a href="scholarship.html">Student Scholarship</a></li>
+							</ul>
+						</li>
 						<li><a href="#">Submit</a>
 							<ul>
 								<li><a href="call_paper.html">Call for Papers</a></li>
@@ -70,7 +77,6 @@ class HeaderNav extends HTMLElement {
 								<li><a href="venue.html">Venue</a></li>
 								<li><a href="https://www.visitcopenhagen.com/" target="_blank" rel="noreferrer noopener">Copenhagen</a></li>
 								<!-- <li><a href="copenhagen.html">Copenhagen</a></li> -->
-								<li><a href="scholarship.html">Student Scholarship</a></li>
 							</ul>
 						</li>
 
