@@ -21,6 +21,7 @@ class HeaderNav extends HTMLElement {
 								<li><a href="call_paper.html">Call for Papers</a></li>
 								<li><a href="call_workshop.html">Call for Workshops & Tutorials</a></li>
 								<li><a href="call_special_session.html">Call for Special Sessions</a></li>
+								<li><a href="call_abstract.html">Call for Late Breaking Abstract</a></li>
 							</ul>
 						</li>
 						<!-- <li> -->
