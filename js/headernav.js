@@ -54,6 +54,7 @@ class HeaderNav extends HTMLElement {
 								<li><a href="special_sessions.html">Special sessions</a></li>
 								<li><a href="workshops.html">Workshops</a></li>
 								<li><a href="tutorials.html">Tutorials</a></li>
+								<li><a href="mind_matching.html">Mind Matching event</a></li>
 								<li><a href="social_event.html">Social events</a></li>
 							</ul>
 						</li>
