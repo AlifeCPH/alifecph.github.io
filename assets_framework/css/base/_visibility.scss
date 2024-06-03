@@ -1,0 +1,27 @@
+:root {
+  --display: block;
+}
+
+.is-visible {
+  display: var(--display) !important;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+html:not(.js) {
+  .no-js\:is-hidden {
+    display: none !important;
+  }
+}
+
+@media print {
+  .print\:is-hidden {
+    display: none !important;
+  }
+
+  .print\:shadow-none {
+    box-shadow: none;
+  }
+}
