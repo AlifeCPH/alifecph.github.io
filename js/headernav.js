@@ -14,6 +14,7 @@ class HeaderNav extends HTMLElement {
 							<ul>
 								<li><a href="registration.html">Registration</a></li>
 								<li><a href="scholarship.html">Student Scholarship</a></li>
+								<li><a href="call_volunteer.html">Student Volunteer Call</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Submit</a>
