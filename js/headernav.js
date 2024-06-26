@@ -58,6 +58,7 @@ class HeaderNav extends HTMLElement {
 								<li><a href="mind_matching.html">Mind Matching event</a></li>
 								<li><a href="social_event.html">Social events</a></li>
 								<li><a href="art_session.html">Art session</a></li>
+								<li><a href="hackathon.html">Hackathon</a></li>
 							</ul>
 						</li>
 						<li>
