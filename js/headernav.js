@@ -51,6 +51,7 @@ class HeaderNav extends HTMLElement {
 							<a href="#">Program</a>
 							<ul>
 								<li><a href="program.html">Timetable</a></li>
+								<li><a href="detailed_program.html">Detailed program</a></li>
 								<li><a href="keynotes.html">Keynotes</a></li>
 								<li><a href="special_sessions.html">Special sessions</a></li>
 								<li><a href="workshops.html">Workshops</a></li>
