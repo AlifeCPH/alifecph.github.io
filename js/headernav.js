@@ -81,6 +81,7 @@ class HeaderNav extends HTMLElement {
 							<a href="#">Info</a>
 							<ul>
 								<li><a href="venue.html">Venue</a></li>
+								<li><a href="map.html">Venue map</a></li>
 								<li><a href="accommodation.html">Accommodations</a></li>
 								<!-- <li><a href="https://www.visitcopenhagen.com/" target="_blank" rel="noreferrer noopener">Copenhagen</a></li> -->
 								<li><a href="copenhagen.html">Copenhagen</a></li>
